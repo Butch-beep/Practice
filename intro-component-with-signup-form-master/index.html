@@ -1,42 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro component with sign up form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  Learn to code by watching others
-
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
-
-  Try it free 7 days then $20/mo. thereafter
-
-  First Name 
-  Last Name 
-  Email Address
-  Password
-
-  Claim your free trial 
-
-  By clicking the button, you are agreeing to our Terms and Services
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    <h1 class="tagline"><span class="text bold">Learn to code by watching others</span></h1>
+    <p class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    <p class=""><span class="text bold">Try it free 7 days</b> then $20/mo. thereafter</p>
+    <div class="inputField">
+        <input type="text" id="user firstname" name="firstName" placeholder="First Name" required></div>
+    <div class="inputField">
+        <input type="text" id="user lastname" name="lastName" placeholder="Last Name" required></div>
+    <div class="inputField">
+        <input type="text" id="user emailAddress" name="emailAddress" placeholder="Email Address" required></div>
+    <div class="inputField">
+        <input type="text" id="user password" name="password" placeholder="Password" required></div>
+    <button type="submit" class="loginInfo">CLAIM YOUR FREE TRIAL</button>
+    <p class="tosReminder">By clicking this button, you are agreeing to our <span class="tos">Term and Services</span></p>
 </body>
 </html>

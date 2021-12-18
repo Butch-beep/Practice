@@ -1,0 +1,2 @@
+In this project, I created a simple webpage that discusses the first chapter of Intermediate Accounting 1, namely Cash and Cash equivalent. This webpage is created to apply all of my learnings on basic HTML and CSS from The Odin Project.
+I will be abandoning this project because I realized that I can already visualize in my head the way to finish it. Also, this project is also too basic for me to put me in a stress. 
