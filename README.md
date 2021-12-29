@@ -1,3 +1,28 @@
-# Practice
+<!DOCTYPE >
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet"> 
+</head>
 
-Projects applying what I have learned
+<body>
+  <div class="mainIcon">
+    <img class ="container-mainIcon" src="./images/logo.svg"></div>
+  <div class="container-one">
+    <div class="container-three">
+      <img class="illustration-mockups" src="./images/illustration-mockups.svg"></div>
+    <div class="container-two">
+      <h1 class="tagline">Build The Community Your Fans Will Love</h1>
+      <p class="descriptions">Huddle re-images the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion</p>
+      <div class="container-four">
+      <button class="register" type="button">Register</button></div></div></div>
+  <div class="socialIcon">
+    <img class="logo-facebook" src="./images/logo-facebook.svg">
+    <img class="logo-twitter" src="./images/logo-twitter.svg">
+    <img class="logo-instagram" src="./images/logo-instagram.svg"></div>
+</body>
+</html>
