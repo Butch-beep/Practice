@@ -1,0 +1,33 @@
+/* body > div{
+    display: flex;
+}
+
+.flex-container {
+    align-content: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-color: black;
+    border-style: solid;
+
+
+} */
+
+img {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    background-color: red;
+
+}
+
+.box-two {
+    /* border-color: black; */
+    /* border-style:  solid; */
+}
+
+.box-three {
+    /* border-color: black; */
+    /* border-style: solid; */
+}
+
