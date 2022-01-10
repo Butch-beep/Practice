@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+@media screen and (min-width: 376px) {
+    body {
+        height: 96vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        background-color: hsl(217, 54%, 11%);
+    
+        color: white;
+        font-weight: 300;
+        font-family: Outfit;
+        font-size: 18px;
+    }
+    
+    .mainContainer {
+        padding: 15px;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 10px;
+    
+    }
+    
+    .firstContainer {
+        width: min-content;
+    
+    }
+    
+    .secondContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .thirdContainer {
+        margin: 12px 0 12px 0;
+    }
+    
+    .fourthContainer{
+        display: flex;
+        align-content: center;
+        
+    }    
+    
+    .first-subcontainer-1 {
+    }
+    
+    .product-image {
+        height: auto;
+        max-width: 250px;
+    
+        border-radius: 10px;
+    }
+    
+    .product-name {
+        font-weight: 600;
+        margin-top: 12px;
+    }
+    
+    .product-description {
+        color: hsl(215, 51%, 70%); 
+        font-size: .8em;
+    }
+    
+    .product-price {
+        align-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        
+    
+        color: hsl(178, 100%, 50%);
+        font-weight: 600;
+        font-size: .8em;
+    }
+    
+    .product-offerTime {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        color: hsl(215, 51%, 70%);
+        font-size: .8em;
+    }
+    
+    .icon-ethereum {
+        height: auto;
+        width: 10px;
+        padding-right: 4px;
+    }
+    
+    .icon-clock {
+        padding-right: 4px;
+    }
+    
+    .product-sellerAvatar {
+        height: auto;
+        width: 30px;
+        border-radius: 30px;
+    
+        border: hsl(0, 0%, 100%) solid;
+        border-width: 2px;
+    }
+    
+    .product-sellerName {
+        padding-left: 10px;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .creationOf {
+        color: hsl(215, 51%, 70%);
+        font-size: .8em;
+    }
+    
+    .sellerName {
+        padding-left: 3px;
+    
+        font-size: .8em;
+        font-weight: 400;
+    }
+    
+    .line {
+        border: solid hsl(215, 32%, 27%);
+        border-width: 1px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        height: 96vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        background-color: hsl(217, 54%, 11%);
+    
+        color: white;
+        font-weight: 300;
+        font-family: Outfit;
+        font-size: 18px;
+    }
+    
+    .mainContainer {
+        padding: 15px;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 10px;
+    
+    }
+    
+    .firstContainer {
+        width: min-content;
+    
+    }
+    
+    .secondContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .thirdContainer {
+        margin: 12px 0 12px 0;
+    }
+    
+    .fourthContainer{
+        display: flex;
+        align-content: center;
+        
+    }    
+    
+    .first-subcontainer-1 {
+    }
+    
+    .product-image {
+        height: auto;
+        max-width: 250px;
+    
+        border-radius: 10px;
+    }
+    
+    .product-name {
+        font-weight: 600;
+        margin-top: 12px;
+    }
+    
+    .product-description {
+        color: hsl(215, 51%, 70%); 
+        font-size: .8em;
+    }
+    
+    .product-price {
+        align-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        
+    
+        color: hsl(178, 100%, 50%);
+        font-weight: 600;
+        font-size: .8em;
+    }
+    
+    .product-offerTime {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        color: hsl(215, 51%, 70%);
+        font-size: .8em;
+    }
+    
+    .icon-ethereum {
+        height: auto;
+        width: 10px;
+        padding-right: 4px;
+    }
+    
+    .icon-clock {
+        padding-right: 4px;
+    }
+    
+    .product-sellerAvatar {
+        height: auto;
+        width: 30px;
+        border-radius: 30px;
+    
+        border: hsl(0, 0%, 100%) solid;
+        border-width: 2px;
+    }
+    
+    .product-sellerName {
+        padding-left: 10px;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .creationOf {
+        color: hsl(215, 51%, 70%);
+        font-size: .8em;
+    }
+    
+    .sellerName {
+        padding-left: 3px;
+    
+        font-size: .8em;
+        font-weight: 400;
+    }
+    
+    .line {
+        border: solid hsl(215, 32%, 27%);
+        border-width: 1px;
+    }
+}
+

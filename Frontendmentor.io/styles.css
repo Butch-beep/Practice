@@ -1,33 +1,12 @@
-/* body > div{
-    display: flex;
+.avatar {
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #cfd8dc;
 }
-
-.flex-container {
-    align-content: center;
-    justify-content: center;
-    width: 500px;
-    height: 500px;
-    border-color: black;
-    border-style: solid;
-
-
-} */
 
 img {
-    height: auto;
-    width: 100%;
-    max-width: 500px;
-    background-color: red;
-
+    height: 200px;
+    width: 200px
 }
-
-.box-two {
-    /* border-color: black; */
-    /* border-style:  solid; */
-}
-
-.box-three {
-    /* border-color: black; */
-    /* border-style: solid; */
-}
-
