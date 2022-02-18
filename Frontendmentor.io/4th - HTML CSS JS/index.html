@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body>
+    <div class="container-1">
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required</p>
+    </div>
+    <div class="container-2">
+      <div class="sub-container-2-1">
+        <div id="pageViews">100K PAGEVIEWS</div>
+        <div class="price"><span id="currentPrice">$16.00</span>/<span id="billing">month</span></div>
+      </div>
+      <div class="sub-container-2-2">
+        <input class="priceSlider" id="slider" type="range" min="10" max="1000" value="50">
+      </div>  
+      <div class="sub-container-2-3">
+        <div class="monthly">Monthly Billing</div>
+        <label class="switch">
+          <input id="billingToggle" type="checkbox" onclick="myFunction()">
+          <span class="slider"></span>
+        </label>
+        <div class="yearly">Yearly Billing</div>
+        <div class="discount">25% discount</div>
+      </div>
+      <div class="line-divider"></div>
+      <div class="container-3">
+        <div class="sub-container-3-1">
+          <div class="features"><img class="check" src="./images/icon-check.svg">Unlimited websites</div>
+          <div class="features"><img class="check" src="./images/icon-check.svg">100% data ownership</div>
+          <div class="features"><img class="check" src="./images/icon-check.svg">Email reports</div>
+        </div>
+        <div class="sub-container-3-2">
+          <button class="buttonTrial" type="button">Start my trial</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
